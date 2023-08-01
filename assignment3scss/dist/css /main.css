@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 47.875rem;
+  width: 100rem;
+  align-content: center;
+  border: 0.0625rem solid #A5A5A5;
+  margin: auto;
+}
+
+.container {
+  width: 75rem;
+  height: 47.75rem;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.heading {
+  position: absolute;
+  top: 7.25rem;
+  left: 6.25rem;
+}
+.heading__small {
+  font-size: 1rem;
+  font-weight: bolder;
+  top: 2.5rem;
+  position: absolute;
+}
+.heading__large {
+  position: absolute;
+  font-size: 3rem;
+  width: 25rem;
+  top: 4.625rem;
+}
+.heading__hollow {
+  -webkit-text-stroke: 0.0625rem #707070;
+  color: white;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: #3787C8;
+  height: 6.25rem;
+  width: 6.25rem;
+  z-index: -1;
+  position: absolute;
+  top: 7.375rem;
+  left: 3.125rem;
+}
+
+.card {
+  border: 0.0625rem solid #A5A5A5;
+  width: 18.75rem;
+  height: 47.75rem/2;
+  position: relative;
+  border-top: none;
+  border-left: none;
+}
+.card--bottom {
+  border-bottom: none;
+}
+.card--left {
+  border-left: 0.0625rem solid #A5A5A5;
+}
+.card__header {
+  text-decoration: underline;
+  padding: 1rem;
+  color: #A5A5A5;
+}
+.card__content {
+  position: absolute;
+  margin-top: 6.5625rem;
+  margin-left: 5.125rem;
+}
+.card__main {
+  font-size: 1.875rem;
+  height: 4.125rem;
+}
+.card__location {
+  font-size: 1.125rem;
+  color: #A5A5A5;
+  padding-top: 1rem;
+}
+.card__footer {
+  position: absolute;
+  top: 350px;
+  left: 10px;
+  color: aliceblue;
+}
+
+.card:hover {
+  background-color: black;
+  box-shadow: 30px 10px 30px 10px rgba(0, 0, 0, 0.2509803922);
+}
+.card:hover .onhover {
+  visibility: visible;
+}
+.card:hover .card__header {
+  visibility: hidden;
+}
+.card:hover .card__main {
+  color: white;
+}
+
+.hover__element {
+  color: #A5A5A5;
+  margin-right: 150px;
+  font-size: 16px;
+}
+
+.onhover {
+  visibility: hidden;
+}
+
+.card1 {
+  border: 0.0625rem solid #A5A5A5;
+  width: 18.75rem;
+  height: 47.75rem/2;
+  position: relative;
+  border-top: none;
+  border-left: none;
+}
+
+.card--left {
+  border-left: 1px solid #A5A5A5;
+}/*# sourceMappingURL=main.css.map */
