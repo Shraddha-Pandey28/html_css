@@ -1,0 +1,82 @@
+.container {
+  padding: 10% 12%;
+}
+
+.circle {
+  width: 102.52px;
+  height: 102.52px;
+  background-color: #E14B32;
+  border-radius: 50%;
+}
+
+h1 {
+  position: absolute;
+  bottom: 12px;
+  left: 50px;
+}
+
+.header {
+  position: relative;
+}
+
+.Content {
+  position: relative;
+  display: flex;
+  margin-top: 5%;
+}
+
+img {
+  width: 224px;
+  height: 224px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.bluecircle {
+  width: 16px;
+  height: 16px;
+  background-color: #3787C8;
+  position: absolute;
+  border-radius: 50%;
+}
+
+h2 {
+  font-size: 30pt;
+  font-style: Proxima Nova, Regular;
+  text-align: left;
+}
+
+.yellowcircle {
+  width: 16px;
+  height: 16px;
+  background-color: #FAAF41;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.redcircle {
+  width: 16px;
+  height: 16px;
+  background-color: #E14B32;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.Linkedin {
+  margin-top: 40px;
+}
+
+.card {
+  position: relative;
+  border-right: 1px solid;
+  margin-left: 5%;
+}
+
+.line {
+  position: absolute;
+  width: 50px;
+  border: 1px solid #E14B32;
+  bottom: 25px;
+  left: 140px;
+}/*# sourceMappingURL=style.css.map */
