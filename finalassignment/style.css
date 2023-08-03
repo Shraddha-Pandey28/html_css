@@ -1,0 +1,95 @@
+/* *{
+    font-style: Proxima Nova, Bold;
+} */
+.main--container {
+  background-color: #232526;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  background-color: #232526;
+}
+
+.logo img {
+  transform: rotate(-20deg);
+  width: 94.36px;
+  height: 41.25px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: #232526;
+  justify-content: space-between;
+}
+
+@media (min-width: 992px) {
+  .text1 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+.text1 h4 {
+  font: 22px;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+.text2 {
+  border: solid 1px #E14B32;
+  width: 50px;
+  position: relative;
+  top: 10px;
+  left: -60px;
+}
+.text2 h4 {
+  width: 88px;
+  height: 22px;
+  font-size: 18px;
+  color: #E14B32;
+}
+
+.box {
+  width: 50%;
+}
+.box h1 {
+  font-size: 5.5rem;
+  color: white;
+  margin-left: 29px;
+  margin-right: 56px;
+}
+
+.box1 {
+  margin-left: 29px;
+  margin-right: 56px;
+}
+.box1 h3 {
+  font-style: Proxima Nova, Regular;
+  color: #FFFFFF;
+  width: 260%;
+}
+
+.box12 {
+  margin-left: 29px;
+  margin-right: 56px;
+}
+.box12 p {
+  width: 260px;
+}
+
+.triangle {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 200px 0 0 200px;
+  border-color: transparent transparent transparent #FAAF40;
+  transform: rotate(0deg);
+  scale: 0.15;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+}/*# sourceMappingURL=style.css.map */
