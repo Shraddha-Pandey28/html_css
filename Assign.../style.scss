@@ -1,0 +1,84 @@
+/* styles.scss */
+
+$primary-color: #4CAF50;
+$secondary-color: rebeccapurple;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: auto;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.box1 {
+  width: 216px;
+  position: relative;
+  height: 100%;
+
+  h3 {
+    color: beige;
+    position: absolute;
+    margin-left: 78px;
+    top: 20px;
+  }
+}
+
+.box3 {
+  width: 216px;
+  height: 100%;
+
+  h3 {
+    /* color: blueviolet; */
+    position: absolute;
+    margin-right: 20px;
+    top: 20px;
+  }
+}
+
+.banner {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgba(35, 35, 35, 0.744), rgba(46, 45, 45, 0.727)),
+    url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6j_1XUHVNb3pPjmJHzQwyqfEBkF8JjhrizQ&usqp=CAU') no-repeat;
+  background-size: cover;
+}
+
+.box2 {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  position: relative;
+  height: 100%;
+  top: 20px;
+}
+
+.section {
+  color: aliceblue;
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+
+  h2 {
+    margin: auto;
+  }
+}
+
+.button {
+  background-color: $primary-color; /* Green */
+  border: none;
+  color: $secondary-color;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 180px;
+  border-radius: 30px;
+}
